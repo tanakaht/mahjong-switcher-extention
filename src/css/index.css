@@ -1,0 +1,30 @@
+.rectCheckOverlay {
+    border-style: dashed;
+    border-width: medium;
+    border-color: rgba( 0, 0, 0, 0.8 );
+    z-index: 1;
+}
+
+.playerHandView {
+    position: fixed;
+    bottom:0px;
+    width: 25%;
+    aspect-ratio: 16/9;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba( 0, 0, 0, 0.4 );
+    z-index: 10;
+}
+
+#player0HandView{
+    left: 0%;
+}
+#player1HandView{
+    left: 25%;
+}
+#player2HandView{
+    left: 50%;
+}
+#player3HandView{
+    left: 75%;
+}
